@@ -14,22 +14,22 @@ cask "pgdelta" do
   on_macos do
     on_intel do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_macOS_x86_64.tar.gz"
-      sha256 "223e6865069d4007160c9ac9e58b1f510c909bd258561bf7311cfc8a01bc7c4a"
+      sha256 "e5fb42c7d4a8c3071770c628f232ab6700136b757dbe6c59c3bf11128afb6ce2"
     end
     on_arm do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_macOS_arm64.tar.gz"
-      sha256 "429221d6ad0b862646b95388984064985423f49fe7104869f16046786797b1f6"
+      sha256 "1e023e9331a77a1f832f15779eceeabdc9452cc39ee1438137b567a0e24196d0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_Linux_x86_64.tar.gz"
-      sha256 "7782d061ef92321e6ea4d4e3c6873469af86758c94e05143eb781c2e82f4a4bf"
+      sha256 "b035f6ff1242fe36204d670fb4dfb736fc8fa4a31e39ca2b86798aba0255c8c6"
     end
     on_arm do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_Linux_arm64.tar.gz"
-      sha256 "f842db11a03c12048d3a2bd84d542c8e35bbfb4d3382ee7a098bad41815c1548"
+      sha256 "0f1b0bfc6b0e115ef3cb2289cee05a35f7198500e67a882739d5b85c71598e38"
     end
   end
 
