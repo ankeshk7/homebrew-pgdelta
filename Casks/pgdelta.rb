@@ -3,7 +3,7 @@ cask "pgdelta" do
   name "pgdelta"
   desc "Git-native AI-powered PostgreSQL branching tool"
   homepage "https://github.com/ankeshk7/pgdelta"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pgdelta" do
   on_macos do
     on_intel do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_macOS_x86_64.tar.gz"
-      sha256 "91d31754e9bfe6a36bcd389ffd5c826afa53bdc2bad7c298aef4cd5d42996f5f"
+      sha256 "86e0b0c88c9fd9fbd9b38c58f5a0125fa48263919d071a9e7bb910d51ac44630"
     end
     on_arm do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_macOS_arm64.tar.gz"
-      sha256 "4db84587b3e777d97a7f9cdef0a16913c62a9e07968bc783d346256dc9205b93"
+      sha256 "d599a242b912e591f7c1e34d56c9004e94d74470ab1689582af19ab8a4fca8b4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_Linux_x86_64.tar.gz"
-      sha256 "173bad2060209dcb30814eaa99310edcababb80ac2ed443f9d4368640bea2b25"
+      sha256 "be612e98b5618defb890481c4d5d3bd0a80487d554aa542ae3c391ca3fea3803"
     end
     on_arm do
       url "https://github.com/ankeshk7/pgdelta/releases/download/v#{version}/pgdelta_#{version}_Linux_arm64.tar.gz"
-      sha256 "156897ccd743db6e4e9ec5f9aeee65a6e65fcaaaf3bc4fbf213f58a28a8d40fa"
+      sha256 "69900ebedd6965010bad7c636819e47ed50f05326302024b5d66f568e83da07e"
     end
   end
 
